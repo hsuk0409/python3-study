@@ -19,8 +19,8 @@ print(students)
 students.sort(reverse=True)
 print(students)
 
-students_clicing = students[1:3]
-print(students_clicing)
+students_slicing = students[1:3]
+print(students_slicing)
 
 students.clear()
 print(students)
