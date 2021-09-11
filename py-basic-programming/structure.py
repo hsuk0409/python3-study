@@ -10,8 +10,10 @@ print(students)
 students.insert(1, '친구1.5')
 print(students)
 
+cnt = 1
 for student in students:
-    print(student)
+    print('{0}번째 학생={1}'.format(cnt, student))
+    cnt += 1
 
 students.sort()
 print(students)
