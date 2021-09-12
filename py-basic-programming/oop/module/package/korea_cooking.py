@@ -1,0 +1,2 @@
+def makeGimchi():
+    print('Gimchi!!')

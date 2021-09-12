@@ -1,0 +1,2 @@
+def makeJajang():
+    print("Jajang!!")
