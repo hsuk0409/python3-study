@@ -11,6 +11,3 @@ class TestArray(unittest.TestCase):
 
     def test_sum_raise_exception(self):
         self.assertRaises(Exception, lambda: MyArray.sum(5, '1 2 3 4 10 12'))
-
-    # def tearDown(self):
-    #     print('배열에 요소 = {}'.format(self.array))
