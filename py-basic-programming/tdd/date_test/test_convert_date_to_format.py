@@ -10,11 +10,7 @@ class TestConvertDateToFormat(unittest.TestCase):
         formatted_date = '2021-10-02'
 
         result = convert_date_to_format.convert_date_to_formatted_string(date_string)
-        print(f"result=={result}!!")
-        print(f"result date=={result}!!")
-        print(f"result type=={type(result)}!!")
-        print(f"result date type=={type(result)}!!")
-        print(f"string result=={result}!!")
+
         self.assertEqual(result, formatted_date)
 
     def test_wrong_string_date(self):
